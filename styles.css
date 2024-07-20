@@ -1,3 +1,9 @@
+/* .container {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+
 .meal {
   width: 100vw; /*to show the image at view port level*/
+  /* object-fit: cover; */
 }
