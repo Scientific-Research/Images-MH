@@ -7,3 +7,14 @@
   width: 100vw; /*to show the image at view port level*/
   /* object-fit: cover; */
 }
+
+body {
+  /* we can also use background-image */
+  background: url(/images/bg-paper.jpg);
+  /* background-image: url(/images/dishes.png); */
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* we need two values: one for horizontal adjustment and one for vertical adjustment! */
+  background-position: 100px 100px;
+}
