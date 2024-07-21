@@ -5,6 +5,7 @@ https://cssspritestool.com/ */
   background: url("/images/css-sprite-combined.png") 0px -0px;
   width: 100px;
   height: 100px;
+  /* we used span element and this element is an inline element - for an inline element we can not define height and width unless we change the display from inline to inline-block */
   display: inline-block;
 }
 
