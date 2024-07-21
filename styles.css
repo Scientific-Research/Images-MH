@@ -10,7 +10,8 @@
 
 body {
   /* we can also use background-image */
-  background: url(/images/bg-paper.jpg);
+  /* background: url(/images/bg-paper@2x.jpg); */
+  background: url(/images/bg-sanfrancisco.jpg);
   /* background-image: url(/images/dishes.png); */
 
   background-repeat: no-repeat;
@@ -39,7 +40,10 @@ body {
   /* THERE ARE TWO WAYS TO DO THAT: 
   1. IS TO FILL IT WITH DIFFERENT ELEMENTS
   2. USE height:100vh TI FILL THE ENTIRE HEIGHT OF THE VIEW PORT PAGE!*/
-  height: 100vh;
+  height: 200vh;
   background-size: cover;
   /* it covers the entire container while keep the aspect-ratio! */
+  background-attachment: fixed;
+  /*when i change the height to 200vh, the image will be very big and to make it fix relative to the page and the heading word on the image will move when i scroll the page => i use the background-attachment: fixed!*/
+  /* In this case, the image will cover 100% of the view port and not 200vh anymore => that's why we see the image 100% of the page and without any problem! */
 }
