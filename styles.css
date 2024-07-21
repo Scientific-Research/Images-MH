@@ -38,7 +38,7 @@ https://cssspritestool.com/ */
 }
 
 /* create a new image(meal image) with right arrow(inside a form of right arrow) using this wesbite: => https://bennettfeely.com/clippy/  => Clippy is a tool to produce such images without use of photoshop or other similar softwares!*/
-.meal {
+/* .meal {
   clip-path: polygon(
     0% 20%,
     60% 20%,
@@ -48,4 +48,15 @@ https://cssspritestool.com/ */
     60% 80%,
     0% 80%
   );
+} */
+
+/* .meal { */
+/* our image becomes 70% grayscale */
+/* filter: grayscale(70%) blur(3px); */
+/* } */
+
+/* Using hover Pseudo class selector! */
+.meal:hover {
+  /* our image becomes 70% grayscale and blur when we hover on it!*/
+  filter: grayscale(70%) blur(3px);
 }
