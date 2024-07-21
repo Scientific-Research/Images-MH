@@ -1,0 +1,49 @@
+/* .container {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+
+.meal {
+  width: 100vw; /*to show the image at view port level*/
+  /* object-fit: cover; */
+}
+
+body {
+  /* we can also use background-image */
+  /* background: url(/images/bg-paper@2x.jpg); */
+  background: url(/images/bg-sanfrancisco.jpg);
+  /* background-image: url(/images/dishes.png); */
+
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+
+  /* we need two values: one for horizontal adjustment and one for vertical adjustment! */
+  /* background-position: 100px => push the image to the right 100px => push the image to the buttom; */
+
+  /* background-position: -100px -100px; */
+  /* -100px => push the image to the left and top*/
+  /* background-position: 100% 100px; */
+  /* 100% moves the background image to the right completely!*/
+
+  /* two values: one for width and the second one for height! */
+  /* background-size: 200px 200px; */
+  /* background-size: 100% 200px; */
+  /* 100% => the image streches to fill the entire width of the container! */
+  /* 200px takes only 200px of the height of the container! */
+
+  background-size: 100% 100%;
+  /* 100% for width works well and it covers the entire view port */
+  /* 100% for height doesn't work because the height of body as a block element is zero as default - There are two ways below to remove this problem:  */
+
+  /* Body is a block level element, its height is zero as default and it will grow to fit the height of elements that we are filling with! */
+  /* THERE ARE TWO WAYS TO DO THAT: 
+  1. IS TO FILL IT WITH DIFFERENT ELEMENTS
+  2. USE height:100vh TI FILL THE ENTIRE HEIGHT OF THE VIEW PORT PAGE!*/
+  height: 200vh;
+  background-size: cover;
+  /* it covers the entire container while keep the aspect-ratio! */
+  background-attachment: fixed;
+  /*when i change the height to 200vh, the image will be very big and to make it fix relative to the page and the heading word on the image will move when i scroll the page => i use the background-attachment: fixed!*/
+  /* In this case, the image will cover 100% of the view port and not 200vh anymore => that's why we see the image 100% of the page and without any problem! */
+}
