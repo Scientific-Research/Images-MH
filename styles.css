@@ -20,8 +20,22 @@ body {
   /* we need two values: one for horizontal adjustment and one for vertical adjustment! */
   /* background-position: 100px => push the image to the right 100px => push the image to the buttom; */
 
-  background-position: -100px -100px;
+  /* background-position: -100px -100px; */
   /* -100px => push the image to the left and top*/
-  background-position: 100% 100px;
+  /* background-position: 100% 100px; */
   /* 100% moves the background image to the right completely!*/
+
+  /* two values: one for width and the second one for height! */
+  /* background-size: 200px 200px; */
+  /* background-size: 100% 200px; */
+  /* 100% => the image streches to fill the entire width of the container! */
+  /* 200px takes only 200px of the height of the container! */
+
+  background-size: 100% 100%;
+
+  /* Body is a block level element, its height is zero as default and it will grow to fit the height of elements that we are filling with! */
+  /* THERE ARE TWO WAYS TO DO THAT: 
+  1. IS TO FILL IT WITH DIFFERENT ELEMENTS
+  2. USE height:100vh TI FILL THE ENTIRE HEIGHT OF THE VIEW PORT PAGE!*/
+  height: 100vh;
 }
