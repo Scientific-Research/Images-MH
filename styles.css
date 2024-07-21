@@ -32,10 +32,14 @@ body {
   /* 200px takes only 200px of the height of the container! */
 
   background-size: 100% 100%;
+  /* 100% for width works well and it covers the entire view port */
+  /* 100% for height doesn't work because the height of body as a block element is zero as default - There are two ways below to remove this problem:  */
 
   /* Body is a block level element, its height is zero as default and it will grow to fit the height of elements that we are filling with! */
   /* THERE ARE TWO WAYS TO DO THAT: 
   1. IS TO FILL IT WITH DIFFERENT ELEMENTS
   2. USE height:100vh TI FILL THE ENTIRE HEIGHT OF THE VIEW PORT PAGE!*/
   height: 100vh;
+  background-size: cover;
+  /* it covers the entire container while keep the aspect-ratio! */
 }
