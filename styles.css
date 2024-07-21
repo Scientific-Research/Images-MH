@@ -36,3 +36,16 @@ https://cssspritestool.com/ */
   height: 100px;
   display: inline-block;
 }
+
+/* create a new image(meal image) with right arrow(inside a form of right arrow) using this wesbite: => https://bennettfeely.com/clippy/  */
+.meal {
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
+}
