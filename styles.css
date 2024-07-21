@@ -16,5 +16,7 @@ body {
   /* background-repeat: repeat-x; */
   /* background-repeat: repeat-y; */
   /* we need two values: one for horizontal adjustment and one for vertical adjustment! */
-  background-position: 100px 100px;
+  /* background-position: 100px => push the image to the right 100px => push the image to the buttom; */
+  background-position: -100px -100px;
+  /* -100px => push the image to the left and top*/
 }
