@@ -31,5 +31,12 @@
       src="/images/meal2.webp"
       alt="a bowl of salmon with curry but in Webp format!"
     />
+
+    <!-- but for some browsers which don't support the WebP format, we have to use picture feature! -->
+    <picture>
+      <source type="image/webp" srcset="images/meal2.webp" />
+      <source type="image/jpeg" srcset="images/meal2.jpg" />
+      <img src="/images/meal.jpg" alt="a bowl of salmon and curry" />
+    </picture>
   </body>
 </html>
