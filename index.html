@@ -38,5 +38,16 @@
       <source type="image/jpeg" srcset="images/meal2.jpg" />
       <img src="/images/meal.jpg" alt="a bowl of salmon and curry" />
     </picture>
+
+    <!-- Art Direction -->
+    <picture>
+      <!-- more than 500px, we will see the full image of meal.jpg - less than 500px bis max 500px, we will see a cropped image!-->
+      <!-- <source media="(max-width:500px)" srcset="images/meal-cropped.jpg" /> -->
+
+      <!-- min-width:505px => it means bis 505px the image would be a full image but more than(from) 505px, the image would be a cropped image! -->
+      <source media="(min-width:505px)" srcset="images/meal-cropped.jpg" />
+
+      <img src="images/meal.jpg" alt=" a bowl of salmon and curry" />
+    </picture>
   </body>
 </html>
