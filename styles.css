@@ -96,3 +96,13 @@ filter: initial;
 filter: revert;
 filter: revert-layer;
 filter: unset; */
+
+/* https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
+body {
+  background: url(/images/constellation.svg);
+  /* SVG used for icons, logos, simple graphics and backgrounds */
+}
+
+.ufo {
+  width: 100px;
+}
