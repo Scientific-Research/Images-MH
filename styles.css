@@ -61,6 +61,12 @@ https://cssspritestool.com/ */
   filter: grayscale(70%) blur(3px);
 }
 
+.meal2:hover {
+  filter: drop-shadow(16px 16px 20px blue) blur(5px) brightness(0.9)
+    contrast(200%) grayscale(50%) hue-rotate(90deg) opacity(25%) saturate(30%)
+    sepia(60%);
+}
+
 /* <filter-function> values from this website: 
 https://developer.mozilla.org/en-US/docs/Web/CSS/filter*/
 /* filter: blur(5px);
