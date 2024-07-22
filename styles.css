@@ -97,6 +97,10 @@ filter: revert;
 filter: revert-layer;
 filter: unset; */
 
+.html {
+  font-size: 62.5%;
+}
+
 /* https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/ */
 body {
   background: url(/images/constellation.svg);
@@ -109,8 +113,7 @@ body {
 
 /* https://fontawesome.com/icons/user-group?f=classic&s=solid 
     we are using fa-solid: fontawesome-solid  */
-i {
-  color: white;
-  width: 400px;
-  height: 400px;
+.icon {
+  color: dodgerblue;
+  font-size: 1rem;
 }

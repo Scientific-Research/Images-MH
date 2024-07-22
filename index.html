@@ -59,6 +59,15 @@
 
     <!-- https://fontawesome.com/icons/user-group?f=classic&s=solid -->
     <!-- we are using fa-solid: fontawesome-solid -->
-    <i class="fa-solid fa-user-group"></i>
+    <span class="icon">
+      <!-- THE BELOW TWO ICONS INHERIT COLOR AND THE SIZE OF THE PARENT CLASS WHICH IS icon! -->
+      <i class="fa-solid fa-user-group"></i>
+
+      <!-- <i class="fa-solid fa-bell fa-2x"></i> -->
+      <i class="fa-solid fa-bell"></i>
+
+      <span class="fa-solid fa-bell"></span>
+      <!-- WE CAN USE SPAN INSTEAD OF i AND WE WILL GET THE SAME RESULT AS BEFORE! -->
+    </span>
   </body>
 </html>
